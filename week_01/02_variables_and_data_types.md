@@ -107,7 +107,9 @@ Habrá situaciones en las que necesites transformar una variable de un tipo de d
 
 Intenta resolver estos pequeños retos directamente en un archivo de pruebas local o anotando tus respuestas antes de pasar a la siguiente lectura:
 
-1. **¿Válido o Inválido?** Identifica cuáles de los siguientes nombres de variables son válidos en Python:
+1. **¿Válido o Inválido?**
+
+Identifica cuáles de los siguientes nombres de variables son válidos en Python:
 
 - `1st_player`
 - `player_1`
@@ -128,7 +130,9 @@ Intenta resolver estos pequeños retos directamente en un archivo de pruebas loc
 
 ---
 
-2. **Compilador Mental**¿Qué tipo de dato y qué valor exacto tendrá la variable result después de ejecutar el siguiente bloque?
+2. **Compilador Mental**
+
+¿Qué tipo de dato y qué valor exacto tendrá la variable result después de ejecutar el siguiente bloque?
 
 ```python
 value_a = "10"
@@ -146,7 +150,9 @@ La variable `result` tendrá el tipo de dato `float` y el valor exacto `15.0`.
 
 ---
 
-3. **El juego de las cajas (Variable Swapping Trap)** ¿Qué valores tendrán las variables `x` e `y` al final de la ejecución de este bloque de código?
+3. **El juego de las cajas (Variable Swapping Trap)**
+
+¿Qué valores tendrán las variables `x` e `y` al final de la ejecución de este bloque de código?
 
 ```python
 x = 5
@@ -168,7 +174,9 @@ Este es un clásico error de lógica para principiantes. En la línea `x = y`, e
 
 ---
 
-4. **El detector de mentiras (Truthy vs Falsy Strings)** ¿Cuál será el valor booleano final de la variable is_valid?
+4. **El detector de mentiras (Truthy vs Falsy Strings)**
+
+¿Cuál será el valor booleano final de la variable is_valid?
 
 ```python
 status_text = "False"
@@ -186,7 +194,9 @@ is_valid = bool(status_text)
 
 ---
 
-5. **La mutación (Dynamic Typing)** ¿Qué tipo de dato (`type`) y qué valor tendrá la variable `data` al final del script?
+5. **La mutación (Dynamic Typing)**
+
+¿Qué tipo de dato (`type`) y qué valor tendrá la variable `data` al final del script?
 
 ```python
 data = 10
@@ -206,7 +216,9 @@ data = data + " 3"
 
 ---
 
-6. **La suma prohibida (TypeError)** ¿Qué ocurrirá cuando la computadora intente ejecutar la tercera línea de este código?
+6. **La suma prohibida (TypeError)**
+
+¿Qué ocurrirá cuando la computadora intente ejecutar la tercera línea de este código?
 
 ```python
 score = 99

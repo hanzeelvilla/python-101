@@ -78,7 +78,9 @@ Permiten combinar múltiples comparaciones o booleanos. Python utiliza palabras 
 
 ## Retos cortos
 
-1. **La Trampa del Input** ¿Qué pasará si ejecutas este código, ingresas el número 5 en la consola y presionas Enter?
+1. **La Trampa del Input**
+
+¿Qué pasará si ejecutas este código, ingresas el número 5 en la consola y presionas Enter?
 
 ```python
 user_number = input("Enter a number: ")
@@ -97,7 +99,9 @@ print(result)
 
 ---
 
-2. **Evaluación de Operadores** Determina si el resultado final de la variable final_check es `True` o `False`
+2. **Evaluación de Operadores**
+
+Determina si el resultado final de la variable final_check es `True` o `False`
 
 ```python
 a = 10
@@ -125,7 +129,9 @@ final_check = condition_1 and not condition_2
 
 ---
 
-3. **El examen del validador** Imagina que ejecutas el siguiente código, el usuario ingresa primero el número `20` y luego el número `5`. ¿Cuál será el valor booleano final de la variable `result`?
+3. **El examen del validador**
+
+Imagina que ejecutas el siguiente código, el usuario ingresa primero el número `20` y luego el número `5`. ¿Cuál será el valor booleano final de la variable `result`?
 
 ```python
 # Assume the user inputs "20" first, and then "5"
