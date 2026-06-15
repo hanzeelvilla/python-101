@@ -19,13 +19,11 @@ En la semana anterior aprendiste a controlar el flujo de un programa de forma se
 Sigue este orden para construir tu conocimiento de forma sólida:
 
 1. **[01_functions_basics.md](./01_functions_basics.md)**
-    - Aprenderás a definir funciones (`def`), pasar información mediante parámetros y extraer resultados con `return`.
+   - Aprenderás a definir funciones (`def`), pasar información mediante parámetros y extraer resultados con `return`.
 2. **[02_scope_and_builtins.md](./02_scope_and_builtins.md)**
-    - Entenderás dónde "viven" tus variables y cómo usar herramientas nativas poderosas como `range()` y la librería `random`.
+   - Entenderás dónde "viven" tus variables y cómo usar herramientas nativas poderosas como `range()` y la librería `random`.
 3. **[03_intro_to_big_o.md](./03_intro_to_big_o.md)**
-    - Aprenderás a evaluar la complejidad de tiempo y espacio de tu código de forma conceptual.
-4. **[04_two_pointers_pattern.md](./04_two_pointers_pattern.md)**
-    - Aplicarás lógica avanzada para resolver problemas de strings de manera eficiente, optimizando el uso de memoria.
+   - Aprenderás a evaluar la complejidad de tiempo y espacio de tu código de forma conceptual.
 
 ---
 
