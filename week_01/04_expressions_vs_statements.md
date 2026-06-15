@@ -80,7 +80,7 @@ x * 2
 <details>
 <summary>💡 Ver Solución</summary>
 
-- Resulltado: Expresión
+- Resultado: Expresión
 
 **Explicación:** Multiplicar el valor de `x` por `2` producirá un nuevo número como resultado. No se está guardando en ningún lado ni se está haciendo ninguna acción definitiva, solo se está calculando un valor.
 
@@ -97,7 +97,7 @@ username = "coder_girl"
 <details>
 <summary>💡 Ver Solución</summary>
 
-- Resulltado: Sentencia
+- Resultado: Sentencia
 
 **Explicación:** Es una instrucción completa de asignación. Le ordena a Python crear la variable y almacenar el texto en la memoria.
 
@@ -114,7 +114,7 @@ str(100)
 <details>
 <summary>💡 Ver Solución</summary>
 
-- Resulltado: Expresión
+- Resultado: Expresión
 
 **Explicación:** La función `str(100)` toma el valor entero 100 y lo convierte en una cadena de texto. Produce un único valor como resultado.
 

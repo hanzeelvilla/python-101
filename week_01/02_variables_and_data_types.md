@@ -84,7 +84,7 @@ empty_string = ""
 
 ### Booleans (bool)
 
-Solo pueden tener dos valores: True (Verdadero) o False (Falso). Nota que la primera letra debe ser mayúscula.
+Solo pueden tener dos valores: `True` (Verdadero) o `False` (Falso). Nota que la primera letra debe ser mayúscula.
 
 ```python
 is_game_over = False
