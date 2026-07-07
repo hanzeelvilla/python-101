@@ -37,7 +37,7 @@ Como los conjuntos no tienen un orden fijo, no puedes usar índices para modific
 
 ### Verificar si un elemento existe (`in`)
 
-Para saber si un objeto está dentro de un conjunto, utilizamos la palabra clave **`in`**. Gracias a la naturaleza de los conjuntos, esta búsqueda es **instantánea ($O(1)$)**. A diferencia de una lista, donde Python tiene que revisar elemento por elemento de izquierda a derecha ($O(n)$), en un set la respuesta es inmediata, sin importar si la colección tiene 5 elementos o 1 millón.
+Para saber si un objeto está dentro de un conjunto, utilizamos la palabra clave **`in`**. Gracias a la naturaleza de los conjuntos, esta búsqueda es **instantánea (`O(1)`). A diferencia de una lista, donde Python tiene que revisar elemento por elemento de izquierda a derecha (`O(n)`), en un set la respuesta es inmediata, sin importar si la colección tiene 5 elementos o 1 millón.
 
 ```python
 verified_users = {"hanzeel", "alex99", "sam_hunter"}
