@@ -21,16 +21,7 @@ Una lectura enfocada puramente en la eficiencia visual. Aprenderás a transforma
 
 ### 2. [02_integration_workshop.md](./02_integration_workshop.md)
 
-El taller central de la semana. Aquí encontrarás **4 proyectos modulares y extensos** diseñados para hacerse en parejas o como retos de portafolio:
+El taller central de la semana. Aquí encontrarás **2 proyectos modulares y extensos**:
 
 1. **The Randomized Trivia Engine:** Un sistema de cuestionarios interactivos con respuestas de opción múltiple (A, B, C, D) que desordena las preguntas aleatoriamente en cada ejecución.
-2. **The Smart Inventory Filter:** Un procesador masivo de almacén que utiliza List Comprehension para calcular descuentos y alertas de stock de forma automática.
-3. **The Fighter Stats Matcher:** Una simulación que cruza perfiles de personajes anidados para emparejar combates equilibrados basados en rangos de nivel.
-4. **The Digital Security Audit:** Un script de ciberseguridad que utiliza Sets para detectar accesos inusuales o sospechosos cruzando bitácoras de servidores.
-
-## Checklist de Preparación
-
-- [ ] Entiendo cómo funciona un bucle `for` tradicional antes de intentar resumirlo.
-- [ ] He repasado los métodos principales de listas (`.append()`, `.insert()`) y diccionarios (`.get()`).
-- [ ] Estoy listo para diseñar lógica modular (dividir un problema grande en funciones pequeñas).
-- [ ] Configuré mi entorno local para probar scripts que requieran interacción del usuario por consola (`input()`).
+2. **The Fighter Stats Matcher:** Una simulación que cruza perfiles de personajes anidados para emparejar combates equilibrados basados en rangos de nivel.
