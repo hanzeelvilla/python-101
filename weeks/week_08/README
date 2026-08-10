@@ -1,0 +1,34 @@
+# Week 8: Singly Linked Lists
+
+¡Bienvenido a la Semana 8! Durante las semanas anteriores trabajamos con Programación Orientada a Objetos y estructuras de datos nativas de Python (`list`, `dict`, `set`). A partir de esta semana daremos un salto fundamental hacia las Estructuras de Datos Clásicas construidas desde cero.
+
+En este módulo aprenderás a diseñar e implementar una Lista Enlazada Simple (Singly Linked List), comprendiendo cómo se gestionan los nodos en memoria a través de punteros y comparando su rendimiento (`O(1)` vs `O(n)`) frente a los arrays tradicionales.
+
+## Objetivos
+
+- Comprender la diferencia estructural y en memoria entre una Lista Enlazada Simple y un Array/Lista Nativa.
+- Diseñar la clase `Node` (cápsula de datos + puntero `next`) y la clase contenedora `SinglyLinkedList` (`head`, `tail`, `length`).
+- Implementar operaciones de inserción y extracción en los extremos: `push`, `pop`, `shift` y `unshift`.
+- Desarrollar la lógica de recorrido y modificación por índice: `get` y `set`.
+- Dominar la reconexión de punteros para insertar y remover nodos en posiciones intermedias: `insert` y `remove`.
+
+## Mapa de esta semana
+
+Sigue las lecturas y retos de código en el siguiente orden para construir tu implementación paso a paso:
+
+1. [01_singly_linked_lists_intro](01_singly_linked_list_intro.md)
+   - Conceptos Fundamentales: Nodos, punteros, `head`, `tail` y `length`.
+   - Linked List vs Array: Análisis de memoria RAM y complejidad algorítmica (Big O).
+   - Construcción de las clases base `Node` y `SinglyLinkedList`.
+2. [02_methods_push_pop](02_methods_push_pop.md)
+   - Insertar al final (`push`): Creación del nuevo nodo y reasignación de `tail`.
+   - Eliminar al final (`pop`): Recorrido hasta el penúltimo nodo para reajustar la cola.
+3. [03_methods_shift_unshift](03_methods_shift_unshift.md)
+   - Eliminar al inicio (`shift`): Movimiento de head en tiempo constante `O(1)`.
+   - Insertar al inicio (`unshift`): Conexión del nuevo nodo hacia la antigua cabeza en `O(1)`.
+4. [04_methods_get_set](04_methods_get_set.md)
+   - Búsqueda por índice (`get`): Recorrido iterativo paso a paso desde head hasta `n`.
+   - Actualizar valor (`set`): Reutilización de `get` para modificar la propiedad `val` de un nodo.
+5. [05_methods_insert_remove](05_methods_insert_remove.md)
+   - Inserción intermedia (`insert`): Manejo de punteros previa/posterior y reutilización de `push`/`unshift`.
+   - Eliminación intermedia (`remove`): "Bypassear" el nodo objetivo en la secuencia y reutilización de `pop`/`shift`.
